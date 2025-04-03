@@ -225,4 +225,3 @@ create_boxplot <- function(data, features) {
 
 # Generate and display boxplots
 plots <- create_boxplot(combined_data, interesting_features)
-grid.arrange(grobs = plots, ncol = 4)
